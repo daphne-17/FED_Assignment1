@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <!-- boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>HOK</title>
+    <title>feedback using java</title>
 </head>
 
 <body>
@@ -33,66 +33,16 @@
         <div id="menu-btn"><i class='bx bx-menu'></i></div>
     </header>
     <!-- Header End -->
-
-    <!-- Lastest MV  -->
-    <section class="lastest-mv">
-        <h1 class="music-video">
-            <center>Featured Music Video</center>
-        </h1>
-        <iframe class="pc_video"
-            src="https://www.youtube.com/embed/zSQ48zyWZrY?autoplay=0&amp;enablejsapi=1&amp;mute=1&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;controls=0&amp;loop=0"
-            title="SEVENTEEN (세븐틴) '음악의 신' Official MV"></iframe>
-    </section>
-    <!-- Lastest MV End -->
-
-    <!-- Featured Artist -->
-    <section>
-        <h1 class="artist-of-the-week">
-            <center>Featured Artist Of The Week</center>
-        </h1>
-
-        <div class="featured-artist-container">
-            <div class="a-box">
-                <a href="seventeen.html">
-                    <img src="images/svt.jpg" alt="seventeen">
-                    <h2>SEVENTEEN</h2>
-                </a>
-            </div>
-            <div class="a-box">
-                <a href="#">
-                    <img src="images/enha.jpg" alt="enhypen">
-                    <h2>ENHYPEN</h2>
-                </a>
-            </div>
-            <div class="a-box">
-                <a href="#">
-                    <img src="images/skz.jpg" alt="straykids">
-                    <h2>STRAYKIDS</h2>
-                </a>
-                </a>
-            </div>
-            <div class="a-box">
-                <a href="#">
-                    <img src="images/twice.jpg" alt="twice">
-                    <h2>TWICE</h2>
-                </a>
-            </div>
-            <div class="a-box">
-                <a href="#">
-                    <img src="images/newjeans.jpg" alt="newjeans">
-                    <h2>NEWJEANS</h2>
-                </a>
-            </div>
-            <div class="a-box">
-                <a href="#">
-                    <img src="images/lesserafim.jpg" alt="lesserafim">
-                    <h2>LESSERAFIM</h2>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- Featured Artist End -->
-
+    <div class="container">
+        <form>
+            <h3>Feedback Form</h3>
+            <input type="text" id="name" placeholder="Name:" required>
+            <input type="email" id="email" placeholder="Email:" required>
+            <input type="text" id="number" placeholder="Contact No:" required>
+            <textarea id="comments" rows="4" placeholder="Tell us what you think:"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
     <!-- Footer -->
     <footer>
         <div class="footer-container">
@@ -118,5 +68,4 @@
     <script src="js/script.js"></script>
 
 </body>
-
 </html>
